@@ -73,7 +73,7 @@
 \section{Introduction}
 
 This is a test of the \textbf{R Code} and \textbf{Git Example} environments.  By the way,
-this document was last compiled Monday, February 17, 2014 - 6:44:53 PM.
+this document was last compiled Wednesday, February 19, 2014 - 17:05:08.
 
 \subsection{Simple Arithmetic}
 
@@ -180,31 +180,27 @@ git config --list
 \end{alltt}
 
 \begin{verbatim}
-core.symlinks=false
-core.autocrlf=true
-color.diff=auto
-color.status=auto
-color.branch=auto
-color.interactive=true
-pack.packsizelimit=2g
-help.format=html
-http.sslcainfo=/bin/curl-ca-bundle.crt
-sendemail.smtpserver=/bin/msmtp.exe
-diff.astextplain.textconv=astextplain
-rebase.autosquash=true
-user.name=Alan Arnholt
-user.email=arnholtat@appstate.edu
+credential.helper=osxkeychain
+user.email=kryzanekam@email.appstate.edu
+user.name=Andrew Kryzanek
+filter.media.clean=git-media-clean %f
+filter.media.smudge=git-media-smudge %f
+credential.helper=cache
+color.ui=true
 core.repositoryformatversion=0
-core.filemode=false
+core.filemode=true
 core.bare=false
 core.logallrefupdates=true
-core.symlinks=false
 core.ignorecase=true
-core.hidedotfiles=dotGitOnly
+core.precomposeunicode=false
+remote.origin.url=https://github.com/andrewkryzanek/STT4870.git
 remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
-remote.origin.url=https://github.com/alanarnholt/STT4870.git
 branch.master.remote=origin
 branch.master.merge=refs/heads/master
+remote.upstream.url=https://github.com/alanarnholt/STT4870.git
+remote.upstream.fetch=+refs/heads/*:refs/remotes/upstream/*
+remote.parent.url=https://github.com/alanarnholt/STT4870.git
+remote.parent.fetch=+refs/heads/*:refs/remotes/parent/*
 \end{verbatim}
 \end{kframe}
 \end{knitrout}\end{GIT}
@@ -219,9 +215,9 @@ git log --pretty=oneline -3
 \end{alltt}
 
 \begin{verbatim}
-b0d54b91c0631f111c2c28818c80599ae4a1abc9 add S history link
-c75781a14cea468fd4c7a4d3950e70c7a764e2fd more latex
-70d81ae9c6b00e0a4b1eaddf038f730227849fbc fixed geometry
+c78b3c3c1af2bf50344f8e9a5e47ec3dce07cb48 add trial script
+a43ffa99923336503c112e389622417155c89f3d changed when last compiled
+99813d1e561f05e48feb0a58766297e89ad7d2b4 run from windows machine
 \end{verbatim}
 \end{kframe}
 \end{knitrout}\end{GIT}
@@ -274,18 +270,18 @@ How about some more \LaTeX{} in a \texttt{ggplot2} graph.
 
 
 \begin{itemize}\raggedright
-  \item R version 3.0.2 (2013-09-25), \verb|x86_64-w64-mingw32|
-  \item Locale: \verb|LC_COLLATE=English_United States.1252|, \verb|LC_CTYPE=English_United States.1252|, \verb|LC_MONETARY=English_United States.1252|, \verb|LC_NUMERIC=C|, \verb|LC_TIME=English_United States.1252|
+  \item R version 3.0.2 (2013-09-25), \verb|x86_64-apple-darwin10.8.0|
+  \item Locale: \verb|en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8|
   \item Base packages: base, datasets, graphics, grDevices,
     methods, stats, utils
   \item Other packages: filehash~2.2-2, ggplot2~0.9.3.1,
     knitr~1.5, tikzDevice~0.7.0
   \item Loaded via a namespace (and not attached):
-    colorspace~1.2-4, dichromat~2.0-0, digest~0.6.4,
-    evaluate~0.5.1, formatR~0.10, grid~3.0.2, gtable~0.1.2,
-    highr~0.3, labeling~0.2, MASS~7.3-29, munsell~0.4.2, plyr~1.8,
-    proto~0.3-10, RColorBrewer~1.0-5, reshape2~1.2.2,
-    scales~0.2.3, stringr~0.6.2, tools~3.0.2
+    codetools~0.2-8, colorspace~1.2-4, dichromat~2.0-0,
+    digest~0.6.3, evaluate~0.5.1, formatR~0.10, grid~3.0.2,
+    gtable~0.1.2, highr~0.3, labeling~0.2, MASS~7.3-29,
+    munsell~0.4.2, plyr~1.8, proto~0.3-10, RColorBrewer~1.0-5,
+    reshape2~1.2.2, scales~0.2.3, stringr~0.6.2, tools~3.0.2
 \end{itemize}
 
 
