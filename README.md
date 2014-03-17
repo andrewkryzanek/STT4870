@@ -32,10 +32,11 @@
 * [Using RMarkdown](https://support.rstudio.com/hc/en-us/sections/200149716-R-Markdown)
 * [Markdown](http://daringfireball.net/projects/markdown/)
 * [Getting started with R Markdown Blog](http://jeromyanglim.blogspot.com.au/2012/05/getting-started-with-r-markdown-knitr.html)
+* [xtable and Rmarkdown](http://rpubs.com/Thell/xtable)
   
 ## LaTeX  
 
-* [Downnload LaTeX for Macs (TeXLive)](http://tug.org/mactex/)
+* [Download LaTeX for Macs (TeXLive)](http://tug.org/mactex/)
 * [Download LaTeX for Windows (MikTeX)](http://miktex.org/)
 * [More Math into LaTeX](http://www.ctan.org/pkg/math-into-latex-4)
 * [Getting started with LaTeX](http://www.tug.org/begin.html)

@@ -7,3 +7,12 @@
 *.rdx
 *.log
 *.tex
+*.gz
+*.tikz
+*.aux
+*.blg
+*.out
+*.pdf
+*.lof
+*.lot
+*.toc
