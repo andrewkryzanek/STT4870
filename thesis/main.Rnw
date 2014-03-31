@@ -29,6 +29,17 @@
 
 \usepackage[letterpaper,includehead,includefoot]{geometry} % change letterpaper to a4paper for A4 paper size
 \geometry{top=2.0in, bottom=0.0in, left=2.25in, right=0.0in} % read geometry documentation for setting margins
+<<<<<<< HEAD
+=======
+% \usepackage[round]{natbib}  %ATA 3/25/14
+\usepackage{color, xcolor}              
+\usepackage{tikz}                     % used for tikz graphs
+\usetikzlibrary{intersections}
+\usetikzlibrary{positioning, shapes}
+\definecolor{light-gray}{gray}{0.95}
+\definecolor{drkgreen}{RGB}{5,102,51}
+\definecolor{ltblue}{RGB}{100,149,237}
+>>>>>>> ac2b44e540d0624762bc5002705a84a9c6878839
 
 \graphicspath{{Pictures/}} % Specifies the directory where pictures are stored
 
@@ -323,7 +334,17 @@ opts_chunk$set(comment = NA, fig.show='hold', fig.height=7, fig.width=7,
 @
 
 %\input{Chapters/Chapter4} 
+<<<<<<< HEAD
 %\input{Chapters/Chapter5} 
+=======
+<<chapter4, child='./Chapters/Chapter4.Rnw', eval=TRUE>>= 
+@
+
+%\input{Chapters/Chapter5}
+<<chapter5, child='./Chapters/Chapter5.Rnw', eval=TRUE>>= 
+@
+
+>>>>>>> ac2b44e540d0624762bc5002705a84a9c6878839
 %\input{Chapters/Chapter6} 
 %\input{Chapters/Chapter7} 
 
@@ -349,13 +370,23 @@ opts_chunk$set(comment = NA, fig.show='hold', fig.height=7, fig.width=7,
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHY
 %----------------------------------------------------------------------------------------
+<<<<<<< HEAD
+=======
+\nocite{*}  % use this if you want all bib entries whether cited or not to appear in the Bib
+>>>>>>> ac2b44e540d0624762bc5002705a84a9c6878839
 
 \label{Bibliography}
 
 \lhead{\emph{Bibliography}} % Change the page header to say "Bibliography"
 
+<<<<<<< HEAD
 \bibliographystyle{unsrtnat} % Use the "unsrtnat" BibTeX style for formatting the Bibliography
 
 \bibliography{Bibliography} % The references (bibliography) information are stored in the file named "Bibliography.bib"
+=======
+\bibliographystyle{unsrtnat} % Use the "unsrtnat" BibTeX style for formatting the Bibliography ....plainnat
+
+\bibliography{./Bibliography/Bibliography,./Bibliography/Rpkgs031914} % The references (bibliography) information are stored in the file named "Bibliography.bib"
+>>>>>>> ac2b44e540d0624762bc5002705a84a9c6878839
 
 \end{document}  

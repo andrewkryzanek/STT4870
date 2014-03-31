@@ -813,6 +813,10 @@
 \newcommand{\sref}[1]{Section~\vref{#1}}
 \newcommand{\aref}[1]{Appendix~\vref{#1}}
 \newcommand{\rref}[1]{R Code~\vref{#1}}  % ATA added
+<<<<<<< HEAD
+=======
+\newcommand{\gref}[1]{Git Example~\vref{#1}}
+>>>>>>> ac2b44e540d0624762bc5002705a84a9c6878839
 \renewcommand{\topfraction}{0.85}
 \renewcommand{\bottomfraction}{.85}
 \renewcommand{\textfraction}{0.1}
